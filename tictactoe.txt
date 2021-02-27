@@ -1,11 +1,7 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+############## Global Styles  ######################
 
-@import "~ngx-toastr/toastr";
 
-body {
-  position: relative;
-  background-image: url(./assets/bgc.jpg);
-}
+
 *,
 *::after,
 *::before {
@@ -14,11 +10,15 @@ body {
   box-sizing: border-box;
 }
 
-.icon {
-  font-size: 35px;
-  color: #000000;
-  font-weight: bolder;
+body {
+  position: relative;
+  background-image: url(./assets/bgc.jpg);
 }
+
+
+
+############## App Component Styles  ######################
+
 
 .container,
 .row {
@@ -36,9 +36,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
 }
 
 h1 {
   color: aliceblue;
 }
+
+
+############## Icon Component Styles  ######################
+
+.icon {
+  font-size: 35px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+
